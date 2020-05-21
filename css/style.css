@@ -1,0 +1,123 @@
+/* body{
+  color: #777;
+} */
+
+
+
+#navtext-color a{
+    color:#5a8c13;
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    font-weight: 100;
+}
+section #home img{
+    height: 100%;
+    width: 100%;
+}
+#custom-font li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    padding: 15px;
+}
+#custom-font li a:hover{
+    color: green;
+}
+
+
+  #img-section{
+     position: relative; 
+     opacity: 0.8;
+  }
+  #carousel-section h1 {
+    position: absolute; 
+    top: 200px;
+    right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  #carousel-section p  {
+    position: absolute; 
+    top: 250px;
+    right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 2;
+    font-size: 20px;
+  }
+  .custom-btn{
+    position: absolute; 
+    top: 310px;
+    right: 400px;
+    color: lawngreen;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .custom-btn2{
+    position: absolute; 
+    top: 310px;
+    right: 270px;
+    color: lawngreen;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+
+
+ #about h1 {
+      text-align: center;
+     }
+
+
+
+/* .about-img1 img{
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+} */
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 30px auto;
+}
+.custom-clr1{
+  background-color:#639a67;
+  text-align: center;
+ 
+}
+.custom-clr2{
+  background-color: #76a21e;
+  text-align: center;
+}
+.custom-clr3{
+  background-color: rgba(218, 221, 36, 0.774);
+  text-align: center;
+}
+.custom-clr4{
+  background-color: #17B978;
+  text-align: center;
+}
+#service img{
+  opacity: 0.7;
+}
+
+.service-bg-color{
+background-color:#639A67;
+
+padding: 35px;
+}
+#service-container{
+  padding: 30px;
+}
+#service-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+#service-text p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
