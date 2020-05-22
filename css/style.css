@@ -2,6 +2,18 @@
   color: #777;
 } */
 
+#nav2.affix-top {
+  position: static;
+}
+
+#nav2.affix {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 2;
+   transition: all .6s ease-in-out;
+   -webkit-transition: all .6s ease-in-out;
+}
 
 
 #navtext-color a{
@@ -67,9 +79,14 @@ section #home img{
   }
 
 
- #about h1 {
+/* #about h1 {
       text-align: center;
-     }
+     } */
+  #about{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}  
+
 
 
 
@@ -114,10 +131,64 @@ padding: 35px;
   padding: 30px;
 }
 #service-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
 #service-text p{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+#skill-row2 h4 {
+font-size: 15px;
+}
+#skill-row1 h3{
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+#skill-row2 h3{
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+#Contact h1{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#project h3{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#project{
+  padding: 2%;
+}
+#review {
+ background-color: #639A67;
+ padding: 4%;
+ text-align: center;
+ color:white;
+}
+#review h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+.review-img{
+  width: 10%;
+  border-radius: 100%;
+  
+}
+#staf{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 3%;
+  padding-bottom: 3%;
+}
+#footer{
+  background-color: mediumseagreen;
+  color: white;
+  padding: 6%;
+}
+footer button {
+  padding: 3%;
 }
